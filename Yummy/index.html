@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Yummy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ===== Favicon ===== -->
+  <link rel="icon" href="images/logo.png" />
+  <!-- ===== Fonts Used ===== -->
+  <link rel="stylesheet" href="css/fonts.css" />
+  <!-- ===== Font Awesome Library Icons ===== -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- ===== Bootstrap  ===== -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- ===== Bootstrap Grid System ===== -->
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+  <!-- ===== Main CSS Style Sheet ===== -->
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <main>
+    <div class="loading">
+      <span class="loader"></span>
+    </div>
+    <div class="sidebarcontainer position-fixed top-0  d-flex vh-100">
+      <div
+        class="sidebar bg-black  position-fixed top-0 bottom-0 d-flex flex-column justify-content-between align-items-start overflow-hidden">
+        <div class="side-header pt-5 px-4">
+          <ul class="list-unstyled overflow-hidden ">
+            <li>
+              <a href="#" class="text-light d-block p-2 text-decoration-none searchData" id="search"
+                ><i class="fa-solid fa-magnifying-glass fa-fw me-2"></i>Search</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-light d-block p-2 text-decoration-none categoryData" id="category"
+                ><i class="fa-solid fa-tags fa-fw me-2"></i>Categories</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-light d-block p-2 text-decoration-none areaData" id="area"
+                ><i class="fa-solid fa-earth-americas fa-fw me-2"></i>Area</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-light d-block p-2 text-decoration-none IngredientData" id="ingredients">
+                <i class="fa-solid fa-bowl-food fa-fw me-2"></i>Ingredients</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-light d-block p-2 text-decoration-none contactData" id="contact"
+                ><i class="fa-solid fa-address-card fa-fw me-2"></i>Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="side-footer px-4 text-center">
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter px-2"></i>
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="footer text-center pt-3">
+            <p class="p-color">Copyright Â© 2019 All Rights <br>Reserved.</p>
+          </div>
+        </div>
+      </div>
+      <div 
+        class="sidebar-nav bg-white px-2 py-4  position-fixed top-0 bottom-0   d-flex flex-column justify-content-between align-items-center">
+        <img src="images/logo.png" alt="loge">
+        <div class="sidebar-icon ">
+          <i class="fa  fa-open-close fa-align-justify fa-2x " id="showHideMenu"></i>
+
+        </div>
+
+        <div>
+          <i class="fa-solid fa-globe d-block py-2"></i>
+          <i class="fa-solid fa-share-nodes"></i>
+        </div>
+
+      </div>
+    </div>
+    <div class="container w-75 mt-3 mb-2 " >
+      <div class="row" id="searchSection">
+        
+
+      </div>
+    </div>
+    <div class="vh-100 position-relative">
+      <div class="inner-loading op-0 start-0 end-0 bottom-0 justify-content-center align-items-center">
+        <span class="loader"></span>
+      </div>
+      <div class="container mt-5">
+        <div class="row p-2 g-4" id="data">
+        </div>
+      
+  
+      </div>
+    </div>
+  </main>
+
+
+  <!-- ===== Main JS File ===== -->
+  <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
